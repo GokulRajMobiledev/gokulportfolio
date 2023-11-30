@@ -1,6 +1,7 @@
 {
   "name": "gokul-portfolio",
   "version": "0.1.0",
+  "homepage": "/portfolio",
   "private": true,
   "dependencies": {
     "@iconify/react": "^4.1.1",
