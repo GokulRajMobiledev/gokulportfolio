@@ -27,7 +27,7 @@ const Hero = ({ data, socialData, animated }) => {
       <div className="st-height-b80 st-height-lg-b80">
         <div
           className="st-hero st-style1 st-bg"
-          style={{ backgroundImage: `url(${bgImgLink})`, width: "50%" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL + bgImgLink})`, width: "50%" }}
         >
           <div className="container" style={{ width: "80%" }}>
             <div className="st-hero-text">
@@ -129,7 +129,7 @@ const Hero = ({ data, socialData, animated }) => {
         <div className="st-hero-img st-to-right" style={{ width: "50%" }}>
           <img
             className=""
-            src={imgLink}
+            src={process.env.PUBLIC_URL + imgLink}
             alt="Hero"
             style={{ display: "flex" }}
             loading="lazy"

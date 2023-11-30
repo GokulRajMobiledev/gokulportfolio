@@ -34,7 +34,7 @@ const Carousel = ({ data }) => {
       <Slider {...sliderSetting}>
         {
           sliderImages.map((item, index) => (
-            <img src={item.imgLink} key={index} alt="" />
+            <img src={process.env.PUBLIC_URL + item.imgLink} key={index} alt="" />
           ))
         }
       </Slider>

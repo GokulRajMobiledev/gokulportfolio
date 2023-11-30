@@ -19,7 +19,7 @@ const Header = () => {
             <div className="st-main-header-left">
               <Link className="st-site-branding" to="/" id="hero">
                 <img
-                  src={"/images/logo1.png"}
+                  src={process.env.PUBLIC_URL + "/images/logo1.png"}
                   alt="Logo"
                   style={{ width: 80, height: 60 }}
                   loading="lazy"
