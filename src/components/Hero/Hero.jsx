@@ -1,14 +1,12 @@
 import PropTypes from "prop-types";
 import "./Hero.scss";
-import parser from "html-react-parser";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import { Link as ScrollLink } from "react-scroll";
 import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 
 const Hero = ({ data, socialData, animated }) => {
-  const { subTitle, designation, description, imgLink, title, bgImgLink } =
-    data;
+  const { description, imgLink, title, bgImgLink } = data;
 
   useEffect(() => {
     const handleScroll = () => {

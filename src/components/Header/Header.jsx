@@ -20,6 +20,7 @@ const Header = () => {
               <Link className="st-site-branding" to="/" id="hero">
                 <img
                   src={"/images/logo1.png"}
+                  alt="Logo"
                   style={{ width: 80, height: 60 }}
                   loading="lazy"
                 />
