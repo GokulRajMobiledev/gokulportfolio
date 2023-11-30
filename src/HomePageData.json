@@ -1,0 +1,484 @@
+{
+  "heroData": {
+    "bgImgLink": "/images/background/hero-bg.jpg",
+    "imgLink": "/images/myimg.jpg",
+    "title": "Gokul Raj",
+    "subTitle": "Hello, I’m",
+    "designation": "Mobile Application developer",
+    "description":
+    "I'm a software developer with work experience in Mobile application. I have specialized in React Native, JavaScript, Node JS , MongoDB, Express JS and Figma design"
+  },
+  "aboutData": {
+    "imgLink": "/images/myimg.jpg",
+    "cvPdf": "/images/Resume.pdf",
+    "title": "Hi There! I'm Gokul Raj",
+    "subtitle": "Mobile Application Developer ",
+    "text": "I have work experience as a software developer, specializing in mobile application development.My expertise lies in React Native, which allows me to create cross-platform mobile apps using JavaScript.I'm proficient in Node.js, using it for server-side development, and MongoDB for database management. I also have experience with Express.js, which is a popular Node.js web application framework. Additionally, I have skills in Figma, enabling me to design user interfaces and user experiences for mobile applications.This combination of skills allows me to work on end-to-end mobile app development, from design to backend development and front-end coding.",
+    "details": [
+      {
+        "title": "Birthday",
+        "info": "Sep 03, 2001"
+      },
+      {
+        "title": "Phone",
+        "info": "+91 9629009376"
+      },
+      {
+        "title": "Email",
+        "info": "gokulraj.mobiledev@gmail.com"
+      },
+      {
+        "title": "From",
+        "info": "2/96E, savadi kadu masinayakenpatty, ayothiyapattinam, salem - 636103"
+      },
+      {
+        "title": "Language",
+        "info": "English, Tamil"
+      },
+      {
+        "title": "Freelance",
+        "info": "Available"
+      },
+      {
+        "title": "Freelance",
+        "info": "Available"
+      }
+    ]
+  },
+  "serviceData": {
+    "services": [
+      {
+        "imgLink": "/images/icon/icon1.png",
+        "title": "Mobile App Development (React Native)",
+        "text": "Custom mobile app development for iOS and Android platforms.Cross-platform development to ensure broad market reach.Integration of native device features and APIs.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/images/icon/icon2.png",
+        "title": "Backend Development (Node.js with Express)",
+        "text": "Building scalable and robust server-side applications using Node.js and Express.API development and integration to support mobile app functionalities.Authentication and authorization implementation",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "/images/icon/icon3.png",
+        "title": "Database Development and Management (MongoDB , PhpMyAdmin)",
+        "text": "Design and implementation of MongoDB databases. Data modeling and optimization for better performance. Data migration and transformation services.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "/images/icon/icon4.png",
+        "title": "UI/UX Design (Figma)",
+        "text": "User interface and experience design for mobile applications.Prototyping and wireframing to visualize app functionality.Design iteration based on user feedback and testing.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "imgLink": "/images/icon/icon5.png",
+        "title": "Full-Stack Development",
+        "text": "End-to-end development services covering both frontend (React Native) and backend (Node.js with Express).Seamless integration of frontend and backend components for a cohesive user experience.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "/images/icon/icon6.png",
+        "title": "API Development and Integration",
+        "text": "Design and development of RESTful APIs using Express.Integration of third-party APIs for additional functionalities.API documentation for client reference.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "/images/icon/icon6.png",
+        "title": "Authentication and Authorization",
+        "text": "Implementation of secure user authentication and authorization mechanisms. Integration with OAuth, JWT, or other authentication protocols.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "/images/icon/icon6.png",
+        "title": "Deployment and Hosting",
+        "text": "Deployment of mobile applications to app stores (Google Play Store, Apple App Store).Hosting and deployment of backend services on platforms like AWS, Heroku, or others.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "/images/icon/icon6.png",
+        "title": "Testing and Quality Assurance",
+        "text": "Unit testing and integration testing for both frontend and backend components.Debugging and error resolution.Performance testing for optimal app functionality.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "/images/icon/icon6.png",
+        "title": "Maintenance and Support",
+        "text": "Ongoing support and maintenance for both mobile apps and backend services.Regular updates to ensure compatibility with new OS versions and technology changes.Bug fixes and issue resolution.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "/images/icon/icon6.png",
+        "title": "Security Audits",
+        "text": "Conducting security audits to identify and address potential vulnerabilities in both frontend and backend components.Implementing security best practices to protect user data.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      }
+    ]
+  },
+  "skillData": {
+    "title": "All the skills that I have in that field of work are mentioned.",
+    "text": "I have work experience as a software developer, specializing in mobile application development.My expertise lies in React Native, which allows me to create cross-platform mobile apps using JavaScript.I'm proficient in Node.js, using it for server-side development, and MongoDB for database management. I also have experience with Express.js, which is a popular Node.js web application framework. Additionally, I have skills in Figma, enabling me to design user interfaces and user experiences for mobile applications.This combination of skills allows me to work on end-to-end mobile app development, from design to backend development and front-end coding.",
+    "skills": [
+      {
+        "title": "React Native",
+        "progress": "95%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "title": "Node JS",
+        "progress": "75%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "title": "MongoDB",
+        "progress": "90%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "title": "UI / UX Design",
+        "progress": "85%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "title": "JavaScript",
+        "progress": "85%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "title": "Express",
+        "progress": "80%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "title": "MySql",
+        "progress": "90%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      }
+    ]
+  },
+  "portfolioData": {
+    "portfolioItems": [
+      {
+        "imgLink": "https://avanexa.com/wp-content/uploads/2023/08/3.jpg",
+        "imgLinkLg": "https://avanexa.com/wp-content/uploads/2023/08/BM-inner-scaled.jpg",
+        "playLink": "https://play.google.com/store/apps/details?id=com.Footwear",
+        "title": "BrandMax",
+        "subTitle": "Whole Sale Shoe Apllication",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "https://avanexa.com/wp-content/uploads/2022/05/Farmer-Harvest-2.jpg",
+        "imgLinkLg": "https://avanexa.com/wp-content/uploads/2022/05/1.jpg",
+        "playLink": "https://play.google.com/store/apps/details?id=com.tharaspices.farmersharvest&hl=en_IE&gl=US",
+        "title": "Farmers Harvest",
+        "subTitle": "Grocery",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "https://avanexa.com/wp-content/uploads/2022/01/Hyr-Mobile-App.jpg",
+        "imgLinkLg": "https://avanexa.com/wp-content/uploads/2022/01/Hyr-Mobile-App.jpg",
+        "playLink": "https://play.google.com/store/apps/details?id=com.avanexa.hyr",
+        "title": "Hyr online",
+        "subTitle": "Retail",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "https://avanexa.com/wp-content/uploads/2023/08/frontier-market0.jpg",
+        "imgLinkLg": "https://avanexa.com/wp-content/uploads/2023/08/FM-inner.jpg",
+        "playLink": "https://play.google.com/store/apps/details?id=com.saheliapp",
+        "title": "Meri saheli",
+        "subTitle": "Grocery and home Apliances",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "imgLink": "https://avanexa.com/wp-content/uploads/2023/08/trucktaxi-1.jpg",
+        "imgLinkLg": "https://avanexa.com/wp-content/uploads/2023/08/TT-inner-scaled.jpg",
+        "playLink": "https://play.google.com/store/apps/details?id=com.Truck_Taxi",
+        "title": "Truck Taxi Driver",
+        "subTitle": "Truck Cab Service",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "/images/portfolio/portfolio2.jpg",
+        "imgLinkLg": "/images/portfolio/portfolio2_lg.jpg",
+        "playLink": "https://play.google.com/store/apps/details?id=com.tharaspices.farmersharvest&hl=en_IE&gl=US",
+        "title": "Albion",
+        "subTitle": "Properties for Buy and Rent",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "https://avanexa.com/wp-content/uploads/2023/05/oosh-scaled.webp",
+        "imgLinkLg": "https://avanexa.com/wp-content/uploads/2023/05/oosh-scaled.webp",
+        "playLink": "https://play.google.com/store/apps/details?id=com.tharaspices.farmersharvest&hl=en_IE&gl=US",
+        "title": "Voosh 10min",
+        "subTitle": "Food Delivery App",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "https://avanexa.com/wp-content/uploads/2023/08/saj-scaled.jpg",
+        "imgLinkLg": "https://avanexa.com/wp-content/uploads/2023/08/Saj-inner-scaled.jpg",
+        "playLink": "",
+        "title": "SAJ Surveyors",
+        "subTitle": "Document Download for survey",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      }
+    ]
+  },
+  "blogData": {
+    "useFor": "blog",
+    "sliderSetting": {
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "arrows": false,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2,
+            "autoplay": true
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1,
+            "autoplay": true
+          }
+        }
+      ]
+    },
+    "informations": [
+      {
+        "imgLink": "/images/blog/blog1.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/images/blog/blog2.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/images/blog/blog3.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "Trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/images/blog/blog1.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/images/blog/blog2.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "The latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/images/blog/blog3.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      }
+    ]
+  },
+  "reviewData": {
+    "useFor": "review",
+    "sliderSetting": {
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "arrows": false,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2,
+            "autoplay": true
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1,
+            "autoplay": true
+          }
+        }
+      ]
+    },
+    "informations": [
+      {
+        "imgLink": "/images/client/client1.png",
+        "title": "Richard Miles",
+        "designation": "Chairman",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/images/client/client2.png",
+        "title": "Vesta Shufelt",
+        "designation": "Executive Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/images/client/client3.png",
+        "title": "Joseph Alves",
+        "designation": "Managing Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/images/client/client1.png",
+        "title": "Richard Miles",
+        "designation": "Chairman",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/images/client/client2.png",
+        "title": "Vesta Shufelt",
+        "designation": "Executive Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/images/client/client3.png",
+        "title": "Joseph Alves",
+        "designation": "Managing Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      }
+    ]
+  },
+  "resumeData": {
+    "experienceTitle": "Experience",
+    "experience": [
+      {
+        "title": "Mobile Application developer",
+        "duration": "Jan 2022 - Present",
+        "subTitle": "Coimbatore,Tamil Nadu",
+        "text": "Experienced software developer specializing in React Native for cross-platform mobile app development using JavaScript. Proficient in Node.js for server-side development, MongoDB for database management, and Express.js for web applications. Skilled in Figma for designing seamless user interfaces and experiences. From concept to implementation, I excel in end-to-end mobile app development, covering design, backend, and front-end coding."
+      }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "title": "Bachelor of Computer Science",
+        "duration": "2018 - 2021",
+        "subTitle": "AVS college of Arts and science - Periyar University",
+        "text": "I successfully earned my Bachelor of Computer Science degree from AVS College of Arts and Science affiliated with Periyar University. Graduating in 2021, I achieved an impressive 85% with a first-class distinction, showcasing my commitment to academic excellence and a solid foundation in computer science. Throughout my studies, I gained valuable insights into various aspects of computer science, laying the groundwork for my successful career in software development."
+      },
+      {
+        "title": "HSC",
+        "duration": "2017 - 2018",
+        "subTitle": "MPL Boys Hr Sec School - State Board",
+        "text": "In the academic year 2017-2018, I completed my Higher Secondary Certificate at MPL Boys Higher Secondary School under the State Board. Demonstrating academic excellence, I secured a notable achievement by graduating with a first-class distinction, attaining an impressive 80%. This academic success laid the groundwork for my subsequent pursuit of a Bachelor's degree in Computer Science, where I continued to excel in my studies and build a strong foundation for my professional journey."
+      },
+      {
+        "title": "SSLC",
+        "duration": "2016",
+        "subTitle": "Shri Swamy Matric Hr Sec School - State Board",
+        "text": "In 2016, I successfully completed my Secondary School Leaving Certificate (SSLC) at Shri Swamy Matric Higher Secondary School, accredited by the State Board. Demonstrating a commitment to academic excellence, I achieved a commendable 84%, showcasing a solid foundation in my early education. This academic milestone marked the beginning of my educational journey, setting the stage for subsequent achievements in higher studies and ultimately contributing to my success in the field of computer science and software development."
+      }
+    ]
+  },
+  "contactData": {
+    "formTitle": "Just say Hello",
+    "title": "Contact Info",
+    "subTitle": "Visite my social profile and get connected",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla tincidunt id faucibus sed suscipit feugiat."
+  },
+  "animated": {
+    "first": "Passionate Coder",
+    "second": "Crafting Mobile Solutions",
+    "third": "Creating Immersive Experiences",
+    "fourth": "Designing with Precision and Figma Expertise",
+    "fifth": "Expert in Node.js Development"
+  },
+  
+  "socialprofils": {
+    "github": "https://github.com/GokulRajprince",
+    "facebook": "https://www.facebook.com/profile.php?id=100027056631054",
+    "linkedin": "https://www.linkedin.com/in/gokul-raj-m-97008b228/",
+    "twitter": "https://twitter.com",
+    "youtube": "https://www.youtube.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  "socialData": [
+    {
+      "icon": "github",
+      "title": "Github",
+      "link": "https://github.com/GokulRajprince"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "link": "https://instagram.com/me_gokulraj?igshid=YTQwZjQ0Nml0OA=="
+    },
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/gokul-raj-m-97008b228/"
+    }
+  ]
+}
