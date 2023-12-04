@@ -3,7 +3,6 @@ export default {
   vector2: require("../assets/img/Vector2.png"),
   boy: require("../assets/img/boy.png"),
   glassesimoji: require("../assets/img/glassesimoji.png"),
-  glassesimoji: require("../assets/img/glassesimoji.png"),
   crown: require("../assets/img/crown.png"),
   thumbup: require("../assets/img/thumbup.png"),
   heartemoji: require("../assets/img/heartemoji.png"),
