@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import Preloader from '../Preloader/Preloader';
 import CustomCursor from '../CustomCursor/CustomCursor';
+import AnimatedCursor from '../AnimatedCursor';
 
 const Layout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -19,7 +20,8 @@ const Layout = () => {
     <>
       {isLoading ? <Preloader /> : (
         <div>
-          <CustomCursor />
+          {/* <CustomCursor /> */}
+          <AnimatedCursor/>
           <Header />
           <Outlet />
           <Footer />
