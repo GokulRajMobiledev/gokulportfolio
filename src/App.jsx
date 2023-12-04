@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Socialicons from './components/socialicons';
+import "./App.css"
 
 function App() {
   useEffect(() => {
@@ -21,7 +22,7 @@ function App() {
           <Route index element={<Home />} />
         </Route>
       </Routes>
-      <div style={{ position: 'absolute', zIndex: 100 }}>
+      <div style={{ position: 'absolute', zIndex: 100 ,flex:1}}>
         <Socialicons style={{ position: 'sticky', top: 0, zIndex: 100 }} />
       </div>
     </BrowserRouter>
