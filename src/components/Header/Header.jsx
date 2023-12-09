@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./Header.scss";
 import PropTypes from "prop-types";
 import { Link as ScrollLink } from "react-scroll";
@@ -18,12 +17,6 @@ const Header = () => {
           <div className="st-main-header-in">
             <div className="st-main-header-left">
               <ScrollLink className="st-site-branding" to="home" id="hero">
-                {/* <img
-                  src={process.env.PUBLIC_URL + "/images/gokullogo.png"}
-                  alt="Logo"
-                  style={{ width: 150, height: 150,position:"absolute" ,top:-40}}
-                  loading="lazy"
-                /> */}
                 <p style={{ fontSize: 25, color: "#fff" }}>Gokul Raj M</p>
               </ScrollLink>
             </div>

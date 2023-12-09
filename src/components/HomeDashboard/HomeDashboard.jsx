@@ -135,9 +135,6 @@ const Hero = ({ data, socialData, animated }) => {
         </div>
         <div className="st-hero-img st-to-right" style={{ width: "50%" }}>
           <div className="i-right">
-            {/* <img src={Media.vector1} alt="" />
-        <img src={Media.vector2} alt="" />
-        <img src={Media.boy} alt="" /> */}
             <motion.img
               initial={{ top: "10rem", left: "74%" }}
               whileInView={{ left: "" }}
