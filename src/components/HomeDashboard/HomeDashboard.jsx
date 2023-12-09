@@ -207,7 +207,8 @@ const Hero = ({ data, socialData, animated }) => {
             className=""
             src={process.env.PUBLIC_URL + imgLink}
             alt="Hero"
-            style={{ display: "flex" }}
+            style={{
+            }}
             loading="lazy"
           />
           <div className="st-social-group">

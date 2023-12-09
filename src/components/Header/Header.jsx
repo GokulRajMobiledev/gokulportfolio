@@ -17,14 +17,15 @@ const Header = () => {
         <div className="container">
           <div className="st-main-header-in">
             <div className="st-main-header-left">
-              <Link className="st-site-branding" to="/" id="hero">
-                <img
-                  src={process.env.PUBLIC_URL + "/images/logo1.png"}
+              <ScrollLink className="st-site-branding" to="home" id="hero">
+                {/* <img
+                  src={process.env.PUBLIC_URL + "/images/gokullogo.png"}
                   alt="Logo"
-                  style={{ width: 80, height: 60 }}
+                  style={{ width: 150, height: 150,position:"absolute" ,top:-40}}
                   loading="lazy"
-                />
-              </Link>
+                /> */}
+                <p style={{ fontSize: 25, color: "#fff" }}>Gokul Raj M</p>
+              </ScrollLink>
             </div>
             <div className="st-main-header-right">
               <div className="st-nav">

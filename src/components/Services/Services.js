@@ -27,9 +27,15 @@ const Services = () => {
                 creativity.
               </p>
               <div className="awesome-buttons">
-                <a href={Resume} download>
-                  <button className="button s-button">Download CV</button>
-                </a>
+                <div className="st-text-block-btn">
+                  <a
+                    className="st-btn st-style1 st-color1"
+                    href={Resume}
+                    download
+                  >
+                    Download CV
+                  </a>
+                </div>
               </div>
               <div
                 className="blur s-blur1"
