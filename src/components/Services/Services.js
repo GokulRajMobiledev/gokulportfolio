@@ -26,7 +26,7 @@ const Services = () => {
                 solutions. I bring your ideas to life with passion and
                 creativity.
               </p>
-              <div className="awesome-buttons">
+              {/* <div className="awesome-buttons">
                 <div className="st-text-block-btn">
                   <a
                     className="st-btn st-style1 st-color1"
@@ -36,7 +36,7 @@ const Services = () => {
                     Download CV
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div
                 className="blur s-blur1"
                 style={{ background: "#ABF1FF94" }}
