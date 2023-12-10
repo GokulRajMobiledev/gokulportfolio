@@ -33,183 +33,175 @@ const Hero = ({ data, socialData, animated }) => {
           className="st-hero st-style1 st-bg"
           style={{
             backgroundImage: `url(${process.env.PUBLIC_URL + bgImgLink})`,
-            width: "50%",
           }}
         >
-          <div className="container" style={{ width: "80%" }}>
-            <div className="st-hero-text">
-              <p style={{ color: "grey", fontSize: "14px" }}>
-                <span
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="200"
-                  className="title"
-                >
-                  Hi There
-                </span>
-              </p>
-              <h2
-                data-aos="fade-up"
-                data-aos-duration="800"
-                className="mb-1x"
-                data-aos-delay="300"
-                style={{
-                  display: "flex",
-                  fontWeight: "bold",
-                  fontSize: 30,
-                  color: "#fff",
-                }}
-              >
-                I'm {title}
-              </h2>
-              <h2
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="400"
-                style={{
-                  display: "flex",
-                  fontWeight: "bold",
-                  fontSize: 30,
-                  color: "#629419",
-                }}
-                className="fluidz-48 mb-1x"
-              >
-                <Typewriter
-                  options={{
-                    strings: [
-                      animated.first,
-                      animated.second,
-                      animated.third,
-                      animated.fourth,
-                      animated.fifth,
-                    ],
-                    autoStart: true,
-                    loop: true,
-                    deleteSpeed: 10,
-                  }}
-                />
-              </h2>
-              <p
-                className="mb-1x"
-                style={{
-                  display: "flex",
-                  color: "#fff",
-                }}
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="400"
-              >
-                {description}
-              </p>
-              <div
-                className="st-hero-btn"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="500"
-              >
-                <div className="intro_btn-action pb-7">
-                  <ScrollLink to="portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </ScrollLink>
-                  <ScrollLink to="contact">
-                    <div
-                      id="button_h"
-                      className="ac_btn btn"
-                      style={{ borderWidth: 1, borderColor: "#fff" }}
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 ">
+                <div className="st-hero-text">
+                  <p style={{ color: "grey", fontSize: "14px" }}>
+                    <span
+                      data-aos="fade-up"
+                      data-aos-duration="800"
+                      data-aos-delay="200"
+                      className="title"
                     >
-                      Contact Me
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
+                      Hi There
+                    </span>
+                  </p>
+                  <h2
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    className="mb-1x"
+                    data-aos-delay="300"
+                    style={{
+                      display: "flex",
+                      fontWeight: "bold",
+                      fontSize: 30,
+                      color: "#fff",
+                    }}
+                  >
+                    I'm {title}
+                  </h2>
+                  <h2
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                    style={{
+                      display: "flex",
+                      fontWeight: "bold",
+                      fontSize: 30,
+                      color: "#629419",
+                    }}
+                    className="fluidz-48 mb-1x"
+                  >
+                    <Typewriter
+                      options={{
+                        strings: [
+                          animated.first,
+                          animated.second,
+                          animated.third,
+                          animated.fourth,
+                          animated.fifth,
+                        ],
+                        autoStart: true,
+                        loop: true,
+                        deleteSpeed: 10,
+                      }}
+                    />
+                  </h2>
+                  <p
+                    className="mb-1x"
+                    style={{
+                      display: "flex",
+                      color: "#fff",
+                    }}
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
+                    {description}
+                  </p>
+                  <div
+                    className="st-hero-btn"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="500"
+                  >
+                    <div className="intro_btn-action pb-7">
+                      <ScrollLink to="portfolio" className="text_2">
+                        <div id="button_p" className="ac_btn btn ">
+                          My Portfolio
+                          <div className="ring one"></div>
+                          <div className="ring two"></div>
+                          <div className="ring three"></div>
+                        </div>
+                      </ScrollLink>
+                      <ScrollLink to="contact">
+                        <div
+                          id="button_h"
+                          className="ac_btn btn"
+                          style={{ borderWidth: 1, borderColor: "#fff" }}
+                        >
+                          Contact Me
+                          <div className="ring one"></div>
+                          <div className="ring two"></div>
+                          <div className="ring three"></div>
+                        </div>
+                      </ScrollLink>
                     </div>
-                  </ScrollLink>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="st-hero-img st-to-right" style={{}}>
+                  <div className="i-right">
+                    <motion.img
+                      initial={{ top: "10rem", left: "74%" }}
+                      whileInView={{ left: "" }}
+                      transition={transition}
+                      src={Media.Figma}
+                      style={{ width: 150, height: 150, cursor: "pointer" }} // Modify styles as needed
+                      alt="Figma" // Replace with new alt text
+                    />
+                    <motion.img
+                      initial={{ top: "10rem", left: "74%" }}
+                      whileInView={{ left: "68%" }}
+                      transition={{ duration: 2, type: "spring" }}
+                      src={Media.nodejs_image}
+                      style={{ width: 150, height: 100, cursor: "pointer" }}
+                      alt=""
+                      className="second-image"
+                    />
+                    <motion.img
+                      initial={{ left: "9rem", top: "30rem" }}
+                      whileInView={{ left: "0rem" }}
+                      transition={{ duration: 2, type: "spring" }}
+                      src={Media.react_image}
+                      style={{ width: 150, height: 150, cursor: "pointer" }}
+                      alt=""
+                      className="third-image"
+                    />
+                    <motion.div
+                      initial={{ left: "9rem", top: "40rem" }}
+                      whileInView={{ left: "68%" }}
+                      transition={transition}
+                      className="floating-div"
+                    >
+                      <FloatinDiv
+                        img={Media.javascript}
+                        text1="Mobile Application"
+                        text2="Developer"
+                      />
+                    </motion.div>
+                    <div
+                      className="blur"
+                      style={{ background: "rgb(238 210 255)" }}
+                    ></div>
+                    <div
+                      className="blur"
+                      style={{
+                        background: "#C1F5FF",
+                        top: "17rem",
+                        width: "21rem",
+                        height: "11rem",
+                        left: "-9rem",
+                      }}
+                    ></div>
+                  </div>
+                  <img
+                    className=""
+                    src={process.env.PUBLIC_URL + imgLink}
+                    alt="Hero"
+                    style={{}}
+                    loading="lazy"
+                  />
+                  <div className="st-social-group">
+                    <SocialLinks data={socialData} />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="st-hero-img st-to-right" style={{ width: "50%" }}>
-          <div className="i-right">
-            <motion.img
-              initial={{ top: "10rem", left: "74%" }}
-              whileInView={{ left: "" }}
-              transition={transition}
-              src={Media.Figma}
-              style={{ width: 150, height: 150, cursor: "pointer" }} // Modify styles as needed
-              alt="Figma" // Replace with new alt text
-            />
-            <motion.img
-              initial={{ top: "10rem", left: "74%" }}
-              whileInView={{ left: "68%" }}
-              transition={{ duration: 2, type: "spring" }}
-              src={Media.nodejs_image}
-              style={{ width: 150, height: 100, cursor: "pointer" }}
-              alt=""
-              className="second-image"
-            />
-            <motion.img
-              initial={{ left: "9rem", top: "30rem" }}
-              whileInView={{ left: "0rem" }}
-              transition={{ duration: 2, type: "spring" }}
-              src={Media.react_image}
-              style={{ width: 150, height: 150, cursor: "pointer" }}
-              alt=""
-              className="third-image"
-            />
-            <motion.div
-              initial={{ left: "9rem", top: "40rem" }}
-              whileInView={{ left: "68%" }}
-              transition={transition}
-              className="floating-div"
-            >
-              <FloatinDiv
-                img={Media.javascript}
-                text1="Mobile Application"
-                text2="Developer"
-              />
-            </motion.div>
-            {/* <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
-          transition={transition}
-          className="floating-div"
-        >
-          <FloatinDiv
-            img={Media.react_image}
-            text1="Full Stack"
-            text2="ADeveloper"
-          />
-        </motion.div> */}
-            <div
-              className="blur"
-              style={{ background: "rgb(238 210 255)" }}
-            ></div>
-            <div
-              className="blur"
-              style={{
-                background: "#C1F5FF",
-                top: "17rem",
-                width: "21rem",
-                height: "11rem",
-                left: "-9rem",
-              }}
-            ></div>
-          </div>
-          <img
-            className=""
-            src={process.env.PUBLIC_URL + imgLink}
-            alt="Hero"
-            style={{
-            }}
-            loading="lazy"
-          />
-          <div className="st-social-group">
-            <SocialLinks data={socialData} />
           </div>
         </div>
       </div>
