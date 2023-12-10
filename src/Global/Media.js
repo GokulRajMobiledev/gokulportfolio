@@ -1,4 +1,4 @@
-export default {
+const Media = {
   vector1: require("../assets/img/Vector1.png"),
   vector2: require("../assets/img/Vector2.png"),
   boy: require("../assets/img/boy.png"),
@@ -21,3 +21,5 @@ export default {
   nodejs_image: require("../assets/img/nodejs_image.png"),
   javascript: require("../assets/img/javascript.png"),
 };
+
+export default Media;
