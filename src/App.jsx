@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/portfolio" // Set the base path for the entire app
+          path="/" // Set the base path for the entire app
           element={<Layout />}
         >
           <Route index element={<Home />} />
