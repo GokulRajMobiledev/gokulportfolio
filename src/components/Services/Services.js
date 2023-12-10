@@ -1,7 +1,6 @@
 import React from "react";
 import "./Services.css";
 import { motion } from "framer-motion";
-import Resume from "./resume.pdf";
 import Card from "../Card/Card";
 import Media from "../../Global/Media";
 
@@ -26,17 +25,6 @@ const Services = () => {
                 solutions. I bring your ideas to life with passion and
                 creativity.
               </p>
-              {/* <div className="awesome-buttons">
-                <div className="st-text-block-btn">
-                  <a
-                    className="st-btn st-style1 st-color1"
-                    href={Resume}
-                    download
-                  >
-                    Download CV
-                  </a>
-                </div>
-              </div> */}
               <div
                 className="blur s-blur1"
                 style={{ background: "#ABF1FF94" }}
