@@ -17,7 +17,7 @@ const Services = () => {
           <div className="left-section">
             <div className="awesome">
               <div className="awesome-heading">
-                <span style={{ color: "#629419" }}>My Awesome</span>
+                <span style={{ color: "#629419" }}>My Expertise</span>
               </div>
               <span>Services</span>
               <p style={{ fontSize: 14 }}>

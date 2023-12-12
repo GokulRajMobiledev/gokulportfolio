@@ -30,8 +30,8 @@ const Home = () => {
       />
       <About data={aboutData} data-aos="fade-right" />
       <Services />
-      <ServicesIconbox data={serviceData} data-aos="fade-right" />
       <Skill data={skillData} data-aos="fade-right" />
+      <ServicesIconbox data={serviceData} data-aos="fade-right" />
       <Resume data={resumeData} />
       <PortfolioSection data={portfolioData} data-aos="fade-right" />
       <Contact
