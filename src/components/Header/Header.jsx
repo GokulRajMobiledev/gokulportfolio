@@ -17,7 +17,18 @@ const Header = () => {
           <div className="st-main-header-in">
             <div className="st-main-header-left">
               <ScrollLink className="st-site-branding" to="home" id="hero">
-                <p style={{ fontSize: 25, color: "#fff" }}>Gokul Raj M</p>
+                <img
+                  className=""
+                  src={process.env.PUBLIC_URL + "/images/profile.png"}
+                  alt="Hero"
+                  style={{
+                    width: 50,
+                    height: 50,
+                    objectFit: "contain",
+                    borderRadius: 100,
+                  }}
+                  loading="lazy"
+                />
               </ScrollLink>
             </div>
             <div className="st-main-header-right">

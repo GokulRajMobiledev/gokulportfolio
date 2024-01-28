@@ -21,9 +21,19 @@ const Services = () => {
               </div>
               <span>Services</span>
               <p style={{ fontSize: 14 }}>
-                Elevate your brand with innovative design and development
-                solutions. I bring your ideas to life with passion and
-                creativity.
+                Elevate your brand with my expertise in innovative design and
+                development solutions. I am passionate about bringing ideas to
+                life through creative and impactful means. Specializing in web
+                design and development, graphic design, app development,
+                branding, e-commerce solutions, digital marketing, and UI/UX
+                design, I offer a comprehensive suite of services tailored to
+                enhance your online presence and market visibility. From
+                crafting visually stunning websites to developing user-friendly
+                mobile applications and implementing effective digital marketing
+                strategies, I am dedicated to ensuring your brand stands out and
+                succeeds in the competitive digital landscape. Let's collaborate
+                to turn your concepts into compelling and memorable digital
+                experiences. Your success is my priority.
               </p>
               <div
                 className="blur s-blur1"

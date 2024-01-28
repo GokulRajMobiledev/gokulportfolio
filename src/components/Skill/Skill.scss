@@ -50,3 +50,20 @@ height: 2px;
 }
 }
 
+@media (max-width: 1200px) {
+  .skill-card {
+    width: calc(33.33% - 20px); /* 3 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-card {
+    width: calc(50% - 20px); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-card {
+    width: calc(100% - 20px); /* 1 card per row */
+  }
+}

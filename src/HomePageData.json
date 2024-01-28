@@ -40,7 +40,7 @@
   "serviceData": {
     "services": [
       {
-        "imgLink": "/images/icon/icon1.png",
+        "imgLink": "/images/icon/mobile_app_development.png",
         "title": "Mobile App Development (React Native)",
         "text": "Custom mobile app development for iOS and Android platforms.Cross-platform development to ensure broad market reach.Integration of native device features and APIs.",
         "effect": "zoom-out-up",
@@ -48,7 +48,7 @@
         "delay": "200"
       },
       {
-        "imgLink": "/images/icon/icon2.png",
+        "imgLink": "/images/icon/backend_development.png",
         "title": "Backend Development (Node.js with Express)",
         "text": "Building scalable and robust server-side applications using Node.js and Express.API development and integration to support mobile app functionalities.Authentication and authorization implementation",
         "effect": "zoom-out-up",
@@ -56,7 +56,7 @@
         "delay": "300"
       },
       {
-        "imgLink": "/images/icon/icon3.png",
+        "imgLink": "/images/icon/database_management.png",
         "title": "Database Development and Management (MongoDB , PhpMyAdmin)",
         "text": "Design and implementation of MongoDB databases. Data modeling and optimization for better performance. Data migration and transformation services.",
         "effect": "zoom-out-up",
@@ -64,7 +64,7 @@
         "delay": "400"
       },
       {
-        "imgLink": "/images/icon/icon4.png",
+        "imgLink": "/images/icon/ui_ux_design.png",
         "title": "UI/UX Design (Figma)",
         "text": "User interface and experience design for mobile applications.Prototyping and wireframing to visualize app functionality.Design iteration based on user feedback and testing.",
         "effect": "zoom-out-up",
@@ -72,7 +72,7 @@
         "delay": "500"
       },
       {
-        "imgLink": "/images/icon/icon5.png",
+        "imgLink": "/images/icon/full_stack.png",
         "title": "Full-Stack Development",
         "text": "End-to-end development services covering both frontend (React Native) and backend (Node.js with Express).Seamless integration of frontend and backend components for a cohesive user experience.",
         "effect": "zoom-out-up",
@@ -80,7 +80,7 @@
         "delay": "600"
       },
       {
-        "imgLink": "/images/icon/icon6.png",
+        "imgLink": "/images/icon/api.png",
         "title": "API Development and Integration",
         "text": "Design and development of RESTful APIs using Express.Integration of third-party APIs for additional functionalities.API documentation for client reference.",
         "effect": "zoom-out-up",
@@ -88,7 +88,7 @@
         "delay": "700"
       },
       {
-        "imgLink": "/images/icon/icon6.png",
+        "imgLink": "/images/icon/biometric_authentication.png",
         "title": "Authentication and Authorization",
         "text": "Implementation of secure user authentication and authorization mechanisms. Integration with OAuth, JWT, or other authentication protocols.",
         "effect": "zoom-out-up",
@@ -96,7 +96,7 @@
         "delay": "700"
       },
       {
-        "imgLink": "/images/icon/icon6.png",
+        "imgLink": "/images/icon/deployment.png",
         "title": "Deployment and Hosting",
         "text": "Deployment of mobile applications to app stores (Google Play Store, Apple App Store).Hosting and deployment of backend services on platforms like AWS, Heroku, or others.",
         "effect": "zoom-out-up",
@@ -104,7 +104,7 @@
         "delay": "700"
       },
       {
-        "imgLink": "/images/icon/icon6.png",
+        "imgLink": "/images/icon/quality_assurance.png",
         "title": "Testing and Quality Assurance",
         "text": "Unit testing and integration testing for both frontend and backend components.Debugging and error resolution.Performance testing for optimal app functionality.",
         "effect": "zoom-out-up",
@@ -112,7 +112,7 @@
         "delay": "700"
       },
       {
-        "imgLink": "/images/icon/icon6.png",
+        "imgLink": "/images/icon/maintenance.png",
         "title": "Maintenance and Support",
         "text": "Ongoing support and maintenance for both mobile apps and backend services.Regular updates to ensure compatibility with new OS versions and technology changes.Bug fixes and issue resolution.",
         "effect": "zoom-out-up",
@@ -304,7 +304,7 @@
     "formTitle": "Just say Hello",
     "title": "Contact Info",
     "subTitle": "Visite my social profile and get connected",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla tincidunt id faucibus sed suscipit feugiat."
+    "text": "Feel free to contact me via email or connect with me on LinkedIn. You can also explore my work on GitHub and visit my portfolio website for a detailed showcase of my projects. I'm active on social media as well, so feel free to reach out through those channels. Looking forward to connecting with you!"
   },
   "animated": {
     "first": "Passionate Coder",

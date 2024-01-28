@@ -33,6 +33,9 @@ const SinglePortfolio = ({ data, getData }) => {
                 style={{
                   width: "370px",
                   height: "300px",
+                  // objectFit: "cover",
+                  borderRadius: 10,
+                  backgroundColor: "#fefefe",
                 }}
               />
             </div>

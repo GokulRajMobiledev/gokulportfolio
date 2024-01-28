@@ -137,16 +137,16 @@ const Hero = ({ data, socialData, animated }) => {
                 <div className="st-hero-img st-to-right" style={{}}>
                   <div className="i-right">
                     <motion.img
-                      initial={{ top: "10rem", left: "74%" }}
-                      whileInView={{ left: "" }}
+                      initial={{ top: "10rem", left: "50%" }}
+                      whileInView={{ left: "", rotate: 360 }}
                       transition={transition}
                       src={Media.Figma}
-                      style={{ width: 150, height: 150, cursor: "pointer" }} // Modify styles as needed
+                      style={{ width: 100, height: 100, cursor: "pointer" }} // Modify styles as needed
                       alt="Figma" // Replace with new alt text
                     />
                     <motion.img
                       initial={{ top: "10rem", left: "74%" }}
-                      whileInView={{ left: "68%" }}
+                      whileInView={{ left: "68%", rotate: 360 }}
                       transition={{ duration: 2, type: "spring" }}
                       src={Media.nodejs_image}
                       style={{ width: 150, height: 100, cursor: "pointer" }}
@@ -155,16 +155,25 @@ const Hero = ({ data, socialData, animated }) => {
                     />
                     <motion.img
                       initial={{ left: "9rem", top: "30rem" }}
-                      whileInView={{ left: "0rem" }}
+                      whileInView={{ left: "0rem", rotate: 360 }}
                       transition={{ duration: 2, type: "spring" }}
                       src={Media.react_image}
                       style={{ width: 150, height: 150, cursor: "pointer" }}
                       alt=""
                       className="third-image"
                     />
-                    <motion.div
+                    <motion.img
                       initial={{ left: "9rem", top: "40rem" }}
-                      whileInView={{ left: "68%" }}
+                      whileInView={{ left: "68%", rotate: 360 }}
+                      transition={{ duration: 2, type: "spring" }}
+                      src={Media.javascript}
+                      style={{ width: 80, height: 80, cursor: "pointer" }}
+                      alt=""
+                      className="third-image"
+                    />
+                    {/* <motion.div
+                      initial={{ left: "9rem", top: "40rem" }}
+                      whileInView={{ left: "68%", rotate: 360 }}
                       transition={transition}
                       className="floating-div"
                     >
@@ -187,7 +196,7 @@ const Hero = ({ data, socialData, animated }) => {
                         height: "11rem",
                         left: "-9rem",
                       }}
-                    ></div>
+                    ></div> */}
                   </div>
                   <img
                     className=""
