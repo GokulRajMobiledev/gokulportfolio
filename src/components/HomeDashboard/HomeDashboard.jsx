@@ -6,7 +6,6 @@ import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import Media from "../../Global/Media";
 import { motion } from "framer-motion";
-import FloatinDiv from "../FloatingDiv/FloatingDiv";
 
 const Hero = ({ data, socialData, animated }) => {
   const { description, imgLink, title, bgImgLink } = data;
@@ -171,32 +170,6 @@ const Hero = ({ data, socialData, animated }) => {
                       alt=""
                       className="third-image"
                     />
-                    {/* <motion.div
-                      initial={{ left: "9rem", top: "40rem" }}
-                      whileInView={{ left: "68%", rotate: 360 }}
-                      transition={transition}
-                      className="floating-div"
-                    >
-                      <FloatinDiv
-                        img={Media.javascript}
-                        text1="Mobile Application"
-                        text2="Developer"
-                      />
-                    </motion.div>
-                    <div
-                      className="blur"
-                      style={{ background: "rgb(238 210 255)" }}
-                    ></div>
-                    <div
-                      className="blur"
-                      style={{
-                        background: "#C1F5FF",
-                        top: "17rem",
-                        width: "21rem",
-                        height: "11rem",
-                        left: "-9rem",
-                      }}
-                    ></div> */}
                   </div>
                   <img
                     className=""

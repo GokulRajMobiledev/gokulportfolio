@@ -118,7 +118,6 @@ const Skill = ({ data }) => {
       name: "Netlify",
     },
   ]);
-  console.log(skillData);
   return (
     <section className="st-dark-bg">
       <div className="st-height-b100 st-height-lg-b80"></div>
