@@ -1,4 +1,4 @@
-export default {
+const Media = {
   cashfree: require("../assets/skills/cashfree.jpg"),
   ccavenue: require("../assets/skills/ccavenue.jpg"),
   express: require("../assets/skills/express.jpg"),
@@ -21,3 +21,5 @@ export default {
   netlify: require("../assets/skills/netlify.png"),
   mysql: require("../assets/skills/mysql.png"),
 };
+
+export default Media;

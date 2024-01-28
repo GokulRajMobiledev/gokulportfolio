@@ -155,11 +155,11 @@ const Skill = ({ data }) => {
                   flexDirection: "column",
                   alignItems: "center",
                   backgroundColor: "#fefefe",
-                  width: "calc(15% - 20px)", // Default to 4 cards per row
+                  width: "calc(15% - 20px)", 
                   margin: "0 10px 20px 10px",
                   padding: 10,
                   borderRadius: 10,
-                  height: "100px", // Set a fixed height for the card
+                  height: "100px",
                   overflow: "hidden",
                 }}
               >
